@@ -81,8 +81,6 @@ client.on('ready', () => {
   
       var actvs = [
         `${prefix}yardım`
-        `${prefix}yardım genel`
-
     ];
     
     client.user.setActivity(actvs[Math.floor(Math.random() * (actvs.length - 1) + 1)], { type: 'LISTENING' });
