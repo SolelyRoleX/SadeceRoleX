@@ -80,9 +80,9 @@ client.on('ready', () => {
   // Oynuyor Kısmı
   
       var actvs = [
-        `${prefix}yardım ${client.guilds.cache.size} sunucuyu`,
-        `${prefix}yardım ${client.users.cache.size} Kullanıcıyı`, 
-        `${prefix}yardım ${prefix}Komutların Sahibi: **RoleX#2517**`
+        `${prefix}yardım`
+        `${prefix}yardım genel`
+
     ];
     
     client.user.setActivity(actvs[Math.floor(Math.random() * (actvs.length - 1) + 1)], { type: 'LISTENING' });

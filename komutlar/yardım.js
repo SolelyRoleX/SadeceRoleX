@@ -11,8 +11,7 @@ exports.run = async (client, message, args, member) => {
   .setColor('#2667FF')
   .setFooter('Bu komutu kullanan kullanıcı ' + message.author.tag, message.author.displayAvatarURL())
    .setDescription(client.commands.filter(cmd => cmd.conf.kategori === 'Genel').map(cmd => `:white_small_square: - **${prefix}${cmd.help.name}** ${cmd.help.description}`).join("\n "))
-        .addField("» Linkler", `𝕭𝖑𝖆𝖈𝖐 𝕯𝖊𝖆𝖙𝖍#3957` + "** | **" + `[Destek Sunucusu](https://discord.gg/wHfXDRua8d)`  + "** | **" + `Bu Sunucuya Özeldir.`  + "** | **" + `[Web Sitesi](https://sites.google.com/view/discordtrbot/ana-sayfa)  `, false)
-              return message.member.send(Genel)
+          return message.member.send(Genel)
          
        
        return;
@@ -24,8 +23,7 @@ exports.run = async (client, message, args, member) => {
   .setColor('#2667FF')
   .setFooter('Bu komutu kullanan kullanıcı ' + message.author.tag, message.author.displayAvatarURL())
    .setDescription(client.commands.filter(cmd => cmd.conf.kategori === 'Sunucu').map(cmd => `:white_small_square: - **${prefix}${cmd.help.name}** ${cmd.help.description}`).join("\n "))
-        .addField("» Linkler", `𝕭𝖑𝖆𝖈𝖐 𝕯𝖊𝖆𝖙𝖍#3957` + "** | **" + `[Destek Sunucusu](https://discord.gg/wHfXDRua8d)`  + "** | **" + `Bu Sunucuya Özeldir.`  + "** | **" + `[Web Sitesi](https://sites.google.com/view/discordtrbot/ana-sayfa)  `, false)
-              return message.member.send(Sunucu)
+         return message.member.send(Sunucu)
          
       
 
@@ -38,8 +36,7 @@ exports.run = async (client, message, args, member) => {
   .setColor('#2667FF')
   .setFooter('Bu komutu kullanan kullanıcı ' + message.author.tag, message.author.displayAvatarURL())
    .setDescription(client.commands.filter(cmd => cmd.conf.kategori === 'Eğlence').map(cmd => `:white_small_square: - **${prefix}${cmd.help.name}** ${cmd.help.description}`).join("\n "))
-        .addField("» Linkler", `𝕭𝖑𝖆𝖈𝖐 𝕯𝖊𝖆𝖙𝖍#3957` + "** | **" + `[Destek Sunucusu](https://discord.gg/wHfXDRua8d)`  + "** | **" + `Bu Sunucuya Özeldir.`  + "** | **" + `[Web Sitesi](https://sites.google.com/view/discordtrbot/ana-sayfa)  `, false)
-   return message.member.send(Eğlence)
+      return message.member.send(Eğlence)
   
       
            return;
@@ -51,8 +48,7 @@ exports.run = async (client, message, args, member) => {
   .setColor('#2667FF')
   .setFooter('Bu komutu kullanan kullanıcı ' + message.author.tag, message.author.displayAvatarURL())
    .setDescription(client.commands.filter(cmd => cmd.conf.kategori === 'Moderasyon').map(cmd => `:white_small_square: - **${prefix}${cmd.help.name}** ${cmd.help.description}`).join("\n "))
-        .addField("» Linkler", `𝕭𝖑𝖆𝖈𝖐 𝕯𝖊𝖆𝖙𝖍#3957` + "** | **" + `[Destek Sunucusu](https://discord.gg/wHfXDRua8d)`  + "** | **" + `Bu Sunucuya Özeldir.`  + "** | **" + `[Web Sitesi](https://sites.google.com/view/discordtrbot/ana-sayfa)  `, false)
-   return message.member.send(Moderasyon)
+        return message.member.send(Moderasyon)
              
        
                return;
@@ -64,7 +60,6 @@ exports.run = async (client, message, args, member) => {
    .setColor('#2667FF')
    .setFooter('Bu komutu kullanan kullanıcı ' + message.author.tag, message.author.displayAvatarURL())
    .setDescription(client.commands.filter(cmd => cmd.conf.kategori === 'Sahip').map(cmd => `:white_small_square: - **${prefix}${cmd.help.name}** ${cmd.help.description}`).join("\n "))
-   .addField("» Linkler", `𝕭𝖑𝖆𝖈𝖐 𝕯𝖊𝖆𝖙𝖍#3957` + "** | **" + `[Destek Sunucusu](https://discord.gg/wHfXDRua8d)`  + "** | **" + `Bu Sunucuya Özeldir.`  + "** | **" + `[Web Sitesi](https://sites.google.com/view/discordtrbot/ana-sayfa)  `, false)
     return message.member.send(Sahip)
               
         
@@ -85,9 +80,7 @@ exports.run = async (client, message, args, member) => {
   **[${prefix}yardım Sunucu]**
   **[${prefix}yardım Sahip]**
   `)
-  .addField("» Linkler", `By:𝕭𝖑𝖆𝖈𝖐 𝕯𝖊𝖆𝖙𝖍#3957` + "** | **" + `[Destek Sunucusu](https://discord.gg/wHfXDRua8d)`  + "** | **" + `Bu Sunucuya Özeldir.`  + "** | **" + `[Web Sitesi](https://sites.google.com/view/discordtrbot/ana-sayfa)  `, false)
-
-  .setFooter('Bu komutu kullanan kullanıcı ' + message.author.tag, message.author.displayAvatarURL())
+ .setFooter('Bu komutu kullanan kullanıcı ' + message.author.tag, message.author.displayAvatarURL())
   message.member.send(embed)
 
   
