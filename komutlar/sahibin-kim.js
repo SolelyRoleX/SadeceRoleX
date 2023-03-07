@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 exports.run = (client, message) => {
    message.channel.send('Yükleniyor...').then(message => {
-      var sahi = [':crown: Efendimiz, RoleX#251 :tophat: '];
+      var sahi = [':crown: Efendimiz, RoleX#2517 :tophat: '];
       var sahib = sahi;
             message.edit(`${sahib}`);
  });
