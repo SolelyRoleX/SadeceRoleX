@@ -4,9 +4,9 @@ const client = new Discord.Client();
 
 exports.run = (client, message) => {
 
-   message.channel.send('L adam Geliyor...').then(message => {
+   message.channel.send('Alo Polis mi?..').then(message => {
 
-      var espriler = ['20 metrelik🤤 kılıcı⚔️ 80💪 metrelik💅 ayıya🐻‍❄️ saplamak😫😳 çok💣 zor👺 olmasa 👣 gerek💣🙉🙁'];
+      var espriler = ['https://media.discordapp.net/attachments/1059500015359365201/1084515732802519133/images-37.jpg'];
 
       var espri = espriler[Math.floor(Math.random() * espriler.length)];
 
@@ -22,7 +22,7 @@ exports.conf = {
 
   guildOnly: false,
 
-  aliases: ['Ladam', 'lordaatrox', 'LAatrox', 'yapbi-espri'],
+  aliases: ['çocukşube', 'çocuk', 'şube', 'yapbi-espri'],
 
   permLevel: 0
 
