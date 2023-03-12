@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 exports.run = (client, message) => {
 
-   message.channel.send('Espri yükleniyor...').then(message => {
+   message.channel.send('L adam Geliyor...').then(message => {
 
       var espriler = ['20 metrelik🤤 kılıcı⚔️ 80💪 metrelik💅 ayıya🐻‍❄️ saplamak😫😳 çok💣 zor👺 olmasa 👣 gerek💣🙉🙁'];
 
