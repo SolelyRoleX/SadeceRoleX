@@ -114,3 +114,11 @@ client.elevation = message => {
 
 client.login(ayarlar.token);
 
+client.on('ready', () => {
+
+ client.user.setActivity(`Karadenizlileri Götünden`)
+
+ console.log(`${client.user.tag} isimli bot başarıyla şu an aktifleştirildi!`);
+
+});
+
