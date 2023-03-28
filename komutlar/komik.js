@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 
 exports.run = (client, message) => {
 
-   message.channel.send('Sus Fanboy').then(message => {
+   message.channel.send('sus fanboy').then(message => {
 
       var espriler = ['Nickinden fanboy olduğun belli. Bi kaynaktan hikayeyi birdaha okumanı tavsiye ederim 🙂'];
 
