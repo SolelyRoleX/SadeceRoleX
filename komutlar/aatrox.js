@@ -21,8 +21,8 @@ exports.conf = {
   guildOnly: false,
 
   aliases: ['aatrox','Aatrox', 'LordAatrox','lordaatrox'],
-
-  permLevel: 0
+  
+  kategori: 'Eğlence'
 
 };
 
@@ -30,7 +30,7 @@ exports.help = {
 
   name: 'Aatrox',
 
-  description: 'Lord Aatrox',
+  description: 'Lord Aatroxa cevap.',
 
   usage: 'Aatrox'
 

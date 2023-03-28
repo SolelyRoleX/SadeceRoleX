@@ -22,7 +22,7 @@ exports.conf = {
 
   aliases: ['fanboy', 'Fanboy'],
 
-  permLevel: 0
+  kategori: 'Eğlence'
 
 };
 
