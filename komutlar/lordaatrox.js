@@ -2,9 +2,9 @@ const Discord = require('discord.js');
 
 exports.run = (client, message) => {
 
-   message.channel.send('Alo Polis mi?..').then(message => {
+   message.channel.send('Sus Fanboy').then(message => {
 
-      var espriler = ['https://media.discordapp.net/attachments/1059500015359365201/1084515732802519133/images-37.jpg'];
+      var espriler = ['Nickinden fanboy olduğun belli. Bi kaynaktan hikayeyi birdaha okumanı tavsiye ederim 🙂'];
 
       var espri = espriler[Math.floor(Math.random() * espriler.length)];
 
@@ -20,7 +20,7 @@ exports.conf = {
 
   guildOnly: false,
 
-  aliases: ['çocukşube', 'çocuk', 'şube', 'yapbi-espri'],
+  aliases: ['fanboy', 'Fanboy'],
 
   permLevel: 0
 
@@ -28,10 +28,10 @@ exports.conf = {
 
 exports.help = {
 
-  name: 'espri',
+  name: 'Fanboy',
 
-  description: 'Espri yapar.',
+  description: 'Fanboylara Cevap.',
 
-  usage: 'espri'
+  usage: 'Fanboy'
 
 };
