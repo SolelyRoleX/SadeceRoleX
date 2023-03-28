@@ -2,13 +2,13 @@ const Discord = require('discord.js');
 
 exports.run = (client, message) => {
 
-   message.channel.send('sus fanboy').then(message => {
+   message.channel.send('Sus Fanboy').then(message => {
 
-      var espriler = ['Nickinden fanboy olduğun belli. Bi kaynaktan hikayeyi birdaha okumanı tavsiye ederim 🙂'];
+      var fanboy = ['Nickinden fanboy olduğun belli. Bi kaynaktan hikayeyi birdaha okumanı tavsiye ederim 🙂'];
 
-      var espri = espriler[Math.floor(Math.random() * espriler.length)];
+      var fanboy = fanboy[Math.floor(Math.random() * fanboy.length)];
 
-            message.edit(`${espri}`);
+            message.edit(`${fanboy}`);
 
  });
 
