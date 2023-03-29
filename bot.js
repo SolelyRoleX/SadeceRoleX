@@ -116,7 +116,7 @@ client.login(ayarlar.token);
 
 client.on('ready', () => {
 
- client.user.setActivity(`Karadenizlileri Götünden`)
+ client.user.setActivity(`.ryardım`)
 
  console.log(`${client.user.tag} isimli bot başarıyla şu an aktifleştirildi!`);
 
