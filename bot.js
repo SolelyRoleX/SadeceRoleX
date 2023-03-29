@@ -121,4 +121,3 @@ client.on('ready', () => {
  console.log(`${client.user.tag} isimli bot başarıyla şu an aktifleştirildi!`);
 
 });
-

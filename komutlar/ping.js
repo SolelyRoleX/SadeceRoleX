@@ -1,31 +1,17 @@
-const Discord = require("discord.js");
+const Discord = require('discord.js');
+exports.run = function(client, message, args) {
+  message.reply('İşte Benim Pingim = **' + client.ping + '** ms');
+};
 
-module.exports = {
+exports.conf = {
+  enabled: true,
+  guildOnly: false,
+  aliases: [],
+  permLevel: 0
+};
 
-    async(client, message, args) =>{
-
-        const ping = new Discord.MessageEmbed()
-
-        .setColor("RANDOM")
-
-        .setTitle(' `Ping Değerlerim;`')
-
-        .setDescription(`
-
-        <:DiscordLogoPng:939293787828654131> Botun Pingi: ${client.ws.ping} ms`)
-
-        return message.reply({embeds: [ping]})
-
-    },
-
-    name: "ping",
-
-    description: "Ping",
-
-    aliases: ["gecikme"],
-
-    kategori: "bot",
-
-    usage: "",
-
-}
+exports.help = {
+  name: 'ping',
+  description: 'Botun pingini gösterir.',
+  usage: 'ping'
+};
