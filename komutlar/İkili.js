@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 
 exports.run = (client, message) => {
 
-   message.channel.send('https://media.discordapp.net/attachments/983100451522228305/1091017801164128306/image0.jpg').then(message => {
+   message.channel.send('https://media.discordapp.net/attachments/983100451522228305/1091015459861712936/Ekran_Alnts.PNG').then(message => {
 
       var fanboy = ['Başın Sıkışırsa Ara: https://media.discordapp.net/attachments/983100451522228305/1091017801164128306/image0.jpg'];
 
@@ -20,7 +20,7 @@ exports.conf = {
 
   guildOnly: false,
 
-  aliases: ['ara', 'goodman'],
+  aliases: ['İki', 'İkili'],
 
   kategori: 'Eğlence'
 
@@ -28,10 +28,10 @@ exports.conf = {
 
 exports.help = {
 
-  name: 'Goodman',
+  name: 'Bitirim ikili',
 
-  description: 'Başın sıkışırsa ara',
+  description: 'Dene ve gör.',
 
-  usage: 'Goodman'
+  usage: 'İkili'
 
 };
