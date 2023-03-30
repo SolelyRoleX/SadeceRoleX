@@ -20,7 +20,7 @@ exports.conf = {
 
   guildOnly: false,
 
-  aliases: ['İki', 'İkili'],
+  aliases: ['İki','iki','ikili', 'İkili'],
 
   kategori: 'Eğlence'
 
